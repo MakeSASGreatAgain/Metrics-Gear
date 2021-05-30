@@ -1,7 +1,7 @@
 import pandas as pd
 import pyodbc 
 
-path = input()
+path = "http://c2-217-73-58-127.elastic.cloud.croc.ru:8680/RTDM/PoolDiagnostics.jsp"
 data = pd.read_html(path)
 data = data[0]
 
